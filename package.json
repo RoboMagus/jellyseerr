@@ -1,6 +1,6 @@
 {
   "name": "jellyseerr",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fallenbagel/jellyseerr.git"
+    "url": "https://github.com/RoboMagus/jellyseerr.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -240,13 +240,13 @@
     "npmPublish": false,
     "publish": [
       {
-        "path": "semantic-release-docker-buildx",
+        "path": "@codedependant/semantic-release-docker",
         "buildArgs": {
           "COMMIT_TAG": "$GIT_SHA"
         },
         "imageNames": [
-          "fallenbagel/jellyseerr",
-          "ghcr.io/fallenbagel/jellyseerr"
+          "RoboMagus/jellyseerr",
+          "ghcr.io/RoboMagus/jellyseerr"
         ],
         "platforms": [
           "linux/amd64",
