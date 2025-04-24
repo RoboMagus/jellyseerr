@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fallenbagel/jellyseerr.git"
+    "url": "https://github.com/robomagus/jellyseerr.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -229,7 +229,7 @@
             "COMMIT_TAG": "$GIT_SHA"
           },
           "dockerLogin": false,
-          "dockerProject": "fallenbagel",
+          "dockerProject": "robomagus",
           "dockerImage": "jellyseerr",
           "dockerTags": [
             "latest",
@@ -251,7 +251,7 @@
           },
           "dockerLogin": false,
           "dockerRegistry": "ghcr.io",
-          "dockerProject": "fallenbagel",
+          "dockerProject": "robomagus",
           "dockerImage": "jellyseerr",
           "dockerTags": [
             "latest",
@@ -273,7 +273,7 @@
       ]
     ],
     "branches": [
-      "main"
+      "*"
     ],
     "npmPublish": false,
     "publish": [
